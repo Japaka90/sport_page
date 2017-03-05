@@ -231,7 +231,7 @@ input:first-child {
 
 input:nth-child(2) {
     font-weight: bold;
-    padding: 2px 8px;
+    padding: 2px 10px;
     position: absolute;
     left: 30px;
 }
