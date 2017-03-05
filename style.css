@@ -4,17 +4,17 @@
 
 h1 {
     margin: 0;
-    margin-top: 5px;
     font-size: 46px;
     padding-bottom: 2px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid darkgrey;
+    box-shadow: inset 0 -10px 8px -3px #f5f5f5;
     color: #41454b;
 }
 
 .nav_bar {
     margin-left: 0;
     background-color: #f5f5f5;
-    padding: 5px 0 2px 5px;
+    padding: 5px 0 1px 5px;
     margin-bottom: 8px;
     font-size: 12px;
 }
@@ -34,6 +34,10 @@ h1 {
 .nav_bar a {
     text-decoration: underline;
     color: #50535a;
+}
+
+.no_right_padding{
+    padding-right: 0;
 }
 
 .main_theme {
@@ -64,7 +68,7 @@ h1 {
 
 .main_theme_content {
     background-color: #5b5653;
-    font-size: 12.5px;
+    font-size: 12px;
     padding: 5px 25px 2px 8px;
     line-height: 1.1;
 }
@@ -94,6 +98,7 @@ h1 {
     color: #1c68bf;
     margin: 0;
     line-height: 1.2;
+    display: inline;
 }
 
 .news_item_title {
@@ -151,6 +156,11 @@ h1 {
     font-size: 9.5px;
     color: white;
     padding: 0 2px;
+    margin-right: 5px;
+}
+
+.last_news .time {
+    color: black;
 }
 
 .hockey {
@@ -172,4 +182,40 @@ h1 {
     height: 1px;
     background: grey;
     margin-bottom: 5px;
+}
+
+.glyphicon {
+    color: red;
+    font-size: 15px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.glyphicon span {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    color: white;
+    font-size: 8px;
+    font-family: Arial;
+    z-index: 3;
+}
+
+.glyphicon.news span{
+    left: 20%;
+}
+
+input {
+    display: inline;
+    color: darkslategrey;
+    font-size: 12px;   
+}
+
+input:first-child {
+    padding: 2px;
+}
+
+input:nth-child(2) {
+    font-weight: bold;
+    padding: 2px 8px;
 }
