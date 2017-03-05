@@ -1,0 +1,175 @@
+.container {
+    width: 600px;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 46px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid grey;
+    color: #41454b;
+}
+
+.nav_bar {
+    margin-left: 0;
+    background-color: #f5f5f5;
+    padding: 5px 0 2px 5px;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.nav_bar ul {
+    list-style-type: none; 
+    padding-left: 5px;
+}
+
+.nav_bar li {
+    display: inline-block;
+    margin-right: 7px;
+    line-height: 1.5;
+    font-size: 12.5px;
+}
+
+.nav_bar a {
+    text-decoration: underline;
+    color: #50535a;
+}
+
+.main_theme {
+    color: white;
+    width: 95%
+}
+
+.main_theme img {
+    width: 100%;
+}
+
+.main_theme_img {
+    position: relative;
+}
+
+.main_theme_opacity {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, 0.4);    
+}
+
+.main_theme_title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 4px 6px 3px 6px;
+}
+
+.main_theme_content {
+    background-color: #5b5653;
+    font-size: 12.5px;
+    padding: 5px 25px 2px 8px;
+    line-height: 1.1;
+}
+
+.main_theme_content span {
+    font-size: 11px;
+    color: orange;
+}
+
+.news_item {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.1;
+    padding-right: 10px;
+}
+
+.news_item img {
+    float: left;
+    width: 160px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.news_item h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1c68bf;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.news_item_title {
+    width: 100%;
+    float: left;
+}
+
+.news_item span {
+    font-size: 11px;
+    color: grey;
+}
+
+.news_item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: gainsboro;
+    margin: auto;
+}
+
+.sport_news_col {    
+    padding-left: 0;
+}
+
+.sport_news_col_header h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5a626e;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.sport_news_col_item {
+    padding-bottom: 3px;
+}
+
+
+.time {
+    width: 20%;
+    float: left;
+    color: dimgray;
+}
+
+.sport_news_col_item_text {
+    display: inline-block;
+    width: 80%;
+    font-size: 11px;
+    line-height: 1.3;
+    margin-top: 5px;
+    padding-left: 2px;
+}
+
+.sport_news_col_item span {
+    font-size: 9.5px;
+    color: white;
+    padding: 0 2px;
+}
+
+.hockey {
+    background: DodgerBlue;
+}
+
+.football {
+    background: green;
+}
+
+.box {
+    background: brown;
+}
+
+.sport_news_col_item:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: grey;
+    margin-bottom: 5px;
+}
