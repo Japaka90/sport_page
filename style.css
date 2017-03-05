@@ -82,7 +82,7 @@ h1 {
     margin-top: 10px;
     font-size: 12px;
     line-height: 1.1;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 .news_item img {
@@ -202,20 +202,36 @@ h1 {
 }
 
 .glyphicon.news span{
-    left: 20%;
+    left: 1px;
+    text-align: center;
 }
 
 input {
     display: inline;
     color: darkslategrey;
-    font-size: 12px;   
+    font-size: 12px;
+}
+
+.buttons {
+    position: relative;
 }
 
 input:first-child {
-    padding: 2px;
+    position: absolute;   
+    width: 25px; 
+    padding: 2px 0;
+}
+
+.glyphicon-arrow-up {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    color: darkslategrey;
 }
 
 input:nth-child(2) {
     font-weight: bold;
     padding: 2px 8px;
+    position: absolute;
+    left: 30px;
 }
